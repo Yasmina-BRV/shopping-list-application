@@ -11,6 +11,7 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
     return <>
         <Link to="/course/add">Add a shopping list</Link>
+        <br></br>
         <Link to="/course/list">See shopping lists</Link>
     </>;
 }
