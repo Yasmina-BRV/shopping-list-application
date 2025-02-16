@@ -1,13 +1,16 @@
+import { Link } from "react-router";
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
-  return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
-  ];
+    return [
+        { title: "New React Router App" },
+        { name: "description", content: "Welcome to my shopping list application!" },
+    ];
 }
 
 export default function Home() {
-  return <Welcome />;
+    return <>
+        <Link to="/course/add">Add a shopping list</Link>
+        <Link to="/course/list">See shopping lists</Link>
+    </>;
 }

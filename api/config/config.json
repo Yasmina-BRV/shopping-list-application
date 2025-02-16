@@ -1,0 +1,14 @@
+{
+    "autoloadFolder": [
+        "controllers",
+        "models",
+        "utils"
+    ],
+    "database": {
+        "name": "shopping-list-application",
+        "host": "127.0.0.1",
+        "username": "root",
+        "password": ""
+    },
+        "basepath": ""
+}
